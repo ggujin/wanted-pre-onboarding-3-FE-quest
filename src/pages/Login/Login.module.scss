@@ -1,0 +1,11 @@
+.wrapper {
+  width: 300px;
+  border: 1px solid black;
+  text-align: center;
+  margin: 200px auto 0;
+  padding: 30px 0 50px;
+}
+
+.formItem + .formItem {
+  margin-top: 15px;
+}
