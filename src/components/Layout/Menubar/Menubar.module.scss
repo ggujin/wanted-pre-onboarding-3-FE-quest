@@ -1,8 +1,9 @@
 .wrapper {
   width: 200px;
   border-right: 1px solid black;
-  li {
-    margin: 20px 0;
-    list-style: none;
-  }
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }
