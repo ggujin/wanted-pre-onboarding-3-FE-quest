@@ -1,5 +1,11 @@
+import { Layout } from "../../components/Layout/Layout";
+
 import styles from "./Page.module.scss";
 
 export function PageB() {
-  return <div className={styles.wrapper}>This is Page B!</div>;
+  return (
+    <Layout>
+      <div className={styles.wrapper}>This is Page B!</div>
+    </Layout>
+  );
 }
