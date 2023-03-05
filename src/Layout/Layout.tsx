@@ -9,7 +9,7 @@ export function Layout(props: { children: React.ReactNode }) {
       <Header />
       <div className={styles.menu}>
         <Menubar />
-        <main>{props.children}</main>
+        <main className={styles.main}>{props.children}</main>
       </div>
     </div>
   );
